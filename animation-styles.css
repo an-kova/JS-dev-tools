@@ -1,0 +1,56 @@
+body {
+    background-color: bisque;
+    margin: 0;
+}
+
+button {
+    background-color: yellowgreen;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: yellow
+}
+
+.wrapper {
+    height: 400px;
+    width: 400px;
+    border: 2px solid coral;
+    margin: 1rem;
+}
+
+.box {
+    background-color: navy;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.btn-block {
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.text {
+    width: 400px;
+    height: 350px;
+    overflow: scroll;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid white;
+    background-color: wheat;
+    /* with box-sizing property padding & border
+    will include in the offset w/h */
+    box-sizing: border-box;
+}
+
+.btn-text > button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
