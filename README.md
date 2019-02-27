@@ -8,6 +8,10 @@
 - animations,
 - modern native JS tools for all of that.
 
+## Encapsulations of data, getters & setters:
+
+Sample constructor of objects with encapsulated data to ensure validity of input data and it's protection from infusions. Written in ES6.
+
 ## Try-Catch Structure:
 
 Example of possible ways to catch an error. Written in ES6 using emulated JSON object.
