@@ -8,9 +8,9 @@
 - animations,
 - modern native JS tools for all of that.
 
-## Encapsulations of data, getters & setters:
+## Encapsulations of data, getters & setters, modules:
 
-Sample constructor of objects with encapsulated data to ensure validity of input data and it's protection from infusions. Written in ES6.
+Sample constructor of objects with encapsulated data and local modules to ensure validity of input data and it's protection from infusions. Written in ES6.
 
 ## Try-Catch Structure:
 
