@@ -1,5 +1,9 @@
 # Set of items for JavaScript Library (work in progress)
 
+## JS Compliers & Bundles:
+- JS ES6 (incl. promises) compiled with Babel;
+- Project bundled up with Browserify.
+
 ## Basics of jQuery:
 - selectors,
 - class togglers,
