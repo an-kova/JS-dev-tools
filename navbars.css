@@ -1,0 +1,49 @@
+/* General Styles */
+
+  /* box model fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+  background: linear-gradient(to right, lightblue, teal);
+  margin-bottom: .3rem;
+}
+a {
+  background: rgba(64, 224, 208, 0.4);
+  text-decoration: none;
+  color: navy;
+  padding: 1rem;
+}
+
+/* Navbar using 'display' property */
+.display {
+  text-align: center;
+  font-size: 0; /* for the opt#3 */
+}
+.display a {
+  display: inline-block;
+  /* Option 3 */
+  width: 25%;
+  font-size: 1rem;
+  /* Option 1 */
+  /* width: 24.7%; */
+  /* Option 2 */
+  /* width: 25%;
+  margin-left: -1%; */
+}
+
+/* Navbar using 'float' property */
+.float {
+  /* clear float */
+  overflow: hidden;
+  text-align: center;
+  /* float: right; */
+}
+.float a {
+  float: left;
+  width: 25%;
+}
