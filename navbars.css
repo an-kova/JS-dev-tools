@@ -47,3 +47,84 @@ a {
   float: left;
   width: 25%;
 }
+
+/* Positioning */
+
+.box {
+  width: 4rem;
+  height: 3rem;
+  background: teal;
+  color: white;
+}
+.parent {
+  position: relative;
+}
+.relative {
+  position: relative;
+  top: 1rem;
+  left: 4rem;
+}
+.absolute {
+  position: absolute;
+  left: 6rem;
+  bottom: 1rem;
+  border: 1px solid turquoise;
+}
+.fixed {
+  position: fixed;
+  right: 0;
+  top: 0; 
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+
+/* Fixed (Top) Navbar */
+
+nav.navbar-fixed {
+  text-align: center;
+  position: fixed;
+  /* background: white;
+  top: 0; */
+  top: 15rem;
+  /* width: 100%; */
+  left: 0;
+  right: 0;
+}
+nav.navbar-fixed a {
+  display: inline-block;
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+p.content-wrap {
+  /* padding-top: 5rem; /* to fix the navbar appearance */
+  padding: 6rem 4rem 1rem 4rem;
+  max-width: 20rem;
+  /* max-width: 60rem; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+/* Fixed Button */
+
+main {
+  position: relative;
+}
+a.btn {
+  text-decoration: none;
+  background: teal;
+  color: white;
+  padding: .75rem;
+  display: inline-block;
+}
+a.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
